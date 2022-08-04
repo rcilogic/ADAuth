@@ -1,0 +1,11 @@
+{
+  "AuthTargets": {
+    "app1": "http://app1.mycompany.local/api/auth/adauth",
+    "app2": "https://app2.mycompany.local/auth/adauth"
+  },
+  "tokenExpireTimeInSecondes": "300",
+  "host": "0.0.0.0",
+  "port": "10443",
+  "pfxPath": "C:\\ssl\\my-cert.pfx",
+  "pfxPassword": "Password"
+}
