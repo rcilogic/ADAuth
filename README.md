@@ -12,7 +12,7 @@ This application is a part of [REM](https://github.com/rcilogic/rem) project. It
 **Note** - The host name URL must be added to SPN for account that is used to start the app.
 CMD:  `SETSPN -s HTTPS/adauth.example.com DOMAIN\ACCOUNTNAME`.
 To check if SPN record is added, use CMD: `SETSPN -L DOMAIN\ACCOUNTNAME`.
-URL **aduth.example.com** must be added in to **Intranet** scope in IE settings (directly or via GPO) on the client side for "transaorent" windows authentication.
+URL **aduth.example.com** must be added in to **Intranet** scope in IE settings (directly or via GPO) on the client side for "transparent" windows authentication.
 
 ### Routes:
 
